@@ -16,8 +16,8 @@ import (
 	cfgui "github.com/skyscooby/MailHog-UI/config"
 	"github.com/skyscooby/MailHog-UI/web"
 	cfgcom "github.com/skyscooby/MailHog/config"
-	"github.com/mailhog/http"
-	"github.com/mailhog/mhsendmail/cmd"
+	http "github.com/skyscooby/MailHog-http"
+	"github.com/skyscooby/MailHog-mhsendmail/cmd"
 	"golang.org/x/crypto/bcrypt"
 )
 
