@@ -1,6 +1,11 @@
 MailHog Releases
 ================
 
+MASTER: REMOVED JIM.. KILLED KEEPALIVE SPAM IN LOGS..
+LEARNED - you need to use go-bindata in Makefile to regen assets.go since that
+was never put into CI..
+
+
 ### [v1.0.0](https://github.com/mailhog/MailHog/releases/v1.0.0)
 
 There's still outstanding PRs and issues which haven't been addressed in this release.
